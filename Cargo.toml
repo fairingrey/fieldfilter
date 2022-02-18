@@ -6,10 +6,11 @@ name = "fieldfilter"
 version = "0.1.0"
 authors = ["Allen Bui <fairingrey@gmail.com>"]
 description = "A Rust trait that lets you filter stuff!"
+repository = "https://github.com/fairingrey/fieldfilter"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-fieldfilter-derive = { path = "./fieldfilter-derive" }
+fieldfilter-derive = { version = "0.1.0", path = "./fieldfilter-derive" }
