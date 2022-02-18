@@ -1,0 +1,13 @@
+[package]
+name = "fieldfilter-derive"
+version = "0.1.0"
+description = "Proc macro to derive FieldFilterable"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0.86", features = ["parsing"] }
+quote = "1.0.15"
+proc-macro2 = "1.0.36"
